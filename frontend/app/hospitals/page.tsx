@@ -29,9 +29,8 @@ export default function HospitalsPage() {
         setError("");
 
         const response = await fetch(
-          "http://localhost:5000/api/hospitals"
-        );
-
+  `${process.env.NEXT_PUBLIC_API_URL}/api/hospitals`
+       );
         if (!response.ok) {
           throw new Error("Failed to fetch hospitals");
         }

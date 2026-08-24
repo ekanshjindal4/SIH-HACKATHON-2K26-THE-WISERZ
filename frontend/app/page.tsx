@@ -71,9 +71,9 @@ export default function Home() {
 
         const [doctorsResponse, hospitalsResponse, treatmentsResponse] =
           await Promise.all([
-            fetch("http://localhost:5000/api/doctors"),
-            fetch("http://localhost:5000/api/hospitals"),   
-            fetch("http://localhost:5000/api/treatments"),
+            fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/doctors`),
+            fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/hospitals`),   
+            fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/treatments`),
           ]);
 
         if (

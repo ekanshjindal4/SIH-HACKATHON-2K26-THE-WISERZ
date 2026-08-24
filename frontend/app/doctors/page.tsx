@@ -27,7 +27,7 @@ export default function DoctorsPage() {
         setLoading(true);
         setError("");
 
-        const response = await fetch("http://localhost:5000/api/doctors");
+        const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/doctors`);
 
         if (!response.ok) {
           throw new Error("Failed to fetch doctors");

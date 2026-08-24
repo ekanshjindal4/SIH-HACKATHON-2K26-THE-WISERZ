@@ -24,8 +24,8 @@ export default function HospitalDetailsPage() {
     const fetchHospital = async () => {
       try {
         const response = await fetch(
-          `http://localhost:5000/api/hospitals/${params.id}`
-        );
+  `${process.env.NEXT_PUBLIC_API_URL}/api/hospitals/${params.id}`
+);
 
         if (!response.ok) {
           throw new Error("Hospital not found");
