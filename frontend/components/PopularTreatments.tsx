@@ -13,28 +13,28 @@ const treatments = [
     description:
       "Rhinoplasty, Facelift, Liposuction & more",
     price: "Starting from $1,800",
-    image: "/images/treatments/cosmetic.jpg",
+    image: "/images/treatments/Cosmetic.jpg",
   },
   {
     title: "Dental Treatment",
     description:
       "Implants, Veneers, Root Canal & more",
     price: "Starting from $200",
-    image: "/images/treatments/Dental.jpg",
+    image: "/images/treatments/Dental .jpg",
   },
   {
     title: "Fertility Treatment",
     description:
       "IVF, IUI, Egg Freezing & more",
     price: "Starting from $2,500",
-    image: "/images/treatments/fertility.jpg",
+    image: "/images/treatments/Fertility.jpg",
   },
   {
     title: "Orthopedic Surgery",
     description:
       "Knee Replacement, Hip Replacement & more",
     price: "Starting from $3,500",
-    image: "/images/treatments/Orthopedic.jpg",
+    image: "/images/treatments/Orthopedic .jpg",
   },
 ];
 
