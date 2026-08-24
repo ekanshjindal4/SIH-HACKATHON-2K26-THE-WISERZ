@@ -20,7 +20,7 @@ const treatments = [
     description:
       "Implants, Veneers, Root Canal & more",
     price: "Starting from $200",
-    image: "/images/treatments/Dental .jpg",
+    image: "/images/treatments/Dental.jpg",
   },
   {
     title: "Fertility Treatment",
@@ -34,7 +34,7 @@ const treatments = [
     description:
       "Knee Replacement, Hip Replacement & more",
     price: "Starting from $3,500",
-    image: "/images/treatments/Orthopedic .jpg",
+    image: "/images/treatments/Orthopedic.jpg",
   },
 ];
 
